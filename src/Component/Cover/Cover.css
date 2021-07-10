@@ -1,0 +1,597 @@
+.Cover-parent{
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+.Cover{
+    background-image: url(./nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:600px;
+    width: 100%;
+    position: relative;
+    filter: blur(5px);
+    overflow: hidden !important;
+}
+
+
+.Cover::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(5, 5, 5, 0.897);
+    opacity: 0.6;
+}
+
+
+
+
+
+.animation {
+    position: absolute;
+    height: 280px;
+    width: 400px;
+    top: 80px;
+    right: 50px;
+    border-radius: 20px;
+    animation: animationCover 6s linear infinite;
+
+}
+
+@keyframes animationCover {
+    0%{ 
+        right: 50px;   }
+    
+        50%{
+            right: 20px;
+        }
+
+    100%{
+        right: 50px; 
+    }
+}
+
+
+@media screen and (min-width:0px) and (max-width: 350px){
+    .animation {
+        height: 70px;
+        width: 120px;
+        top: 140px ;
+    }
+}
+
+
+
+@media screen and (min-width:351px) and (max-width: 450px){
+    .animation {
+        height: 80px;
+        width: 140px;
+        top: 45px;
+        right: 20px;
+        animation: animationCover 4s linear infinite;
+    }
+    
+    @keyframes animationCover {
+        0%{ 
+            right: 20px;   }
+        
+            50%{
+                right: 5px;
+            }
+    
+        100%{
+            right: 20px; 
+        }
+    }
+}
+
+@media screen and (min-width:451px) and (max-width: 500px){
+
+    .animation {
+        height: 110px;
+        width: 160px;
+        top: 70px;
+        right: 25px;
+    }
+
+    @keyframes animationCover {
+        0%{ 
+            right: 25px;   }
+        
+            50%{
+                right: 5px;
+            }
+    
+        100%{
+            right: 25px; 
+        }
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width: 500px){
+    .HireMeButton{
+        margin-top: 40px;
+    }
+    
+    .HireMeButton Button{
+        height:35px !important;
+        width: 110px !important;
+        padding: 3px !important;
+    }
+    
+    .hire-button-text{
+        font-size: 9px !important;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:501px) and (max-width: 850px){
+    .animation {
+        height: 130px;
+        width: 190px;
+        top: 60px;
+        right: 30px;
+    }
+    
+    @keyframes animationCover {
+        0%{ 
+            right: 30px;   }
+        
+            50%{
+                right: 10px;
+            }
+    
+        100%{
+            right: 30px; 
+        }
+    }
+
+
+
+    .HireMeButton{
+        margin-top: 25px;
+    }
+    
+    .HireMeButton Button{
+        height:40px !important;
+        width: 120px !important;
+        padding: 5px !important;
+    }
+    
+    .hire-button-text{
+        font-size: 10px !important;
+    }
+
+}
+
+@media screen and (min-width:851px) and (max-width: 1000px){
+
+    .animation {
+        height: 190px;
+        width: 280px;
+        top: 100px;
+        right: 50px;
+    }
+    
+}
+
+
+
+
+
+.animation img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.animation::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(13, 36, 99, 0.418);
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+/* Cover responsive */
+
+@media screen and (min-width: 0px) and (max-width:450px){
+    .Cover{
+        height: 300px;
+    }
+}
+
+
+@media screen and (min-width: 451px) and (max-width:850px){
+    .Cover{
+        height: 400px;
+    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+/* Cover Text */
+
+.Cover-text{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    color: white;
+    text-align: left;
+}
+
+
+.Cover-text p:nth-child(1){
+    font-family: 'Suez One', serif;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.Cover-text p:nth-child(2){
+    font-family: Overpass;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 60px;
+    
+}
+
+
+.Cover-text p:nth-child(2) span{
+    font-family: 'Suez One', serif;
+    letter-spacing: 0.12ch;
+    color: #f6e4f8;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+
+.Cover-text p:nth-child(3){
+    margin-left: 65px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+/* Type Writer */
+
+.Typewriter{
+    margin-left: 20px;
+    font-size: 30px;
+    display: inline-block;
+    color: red;
+    font-family: 'Suez One', serif;
+}
+
+
+/* Cover Text Responsive 1 */
+
+@media screen and (min-width: 0px) and (max-width:450px) {
+    
+
+.Cover-text{
+    top: 5%;
+    left: 6%;
+}
+
+
+.Cover-text p:nth-child(1){
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.Cover-text p:nth-child(2){
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 35px;
+    
+}
+
+
+.Cover-text p:nth-child(2) span{
+    font-weight: 400;
+    margin-left: 6px;
+}
+
+
+.Cover-text p:nth-child(3){
+    display: flex;
+    align-items: center;
+    margin-left: 38px;
+    font-size: 12px;
+}
+
+
+.Typewriter{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.HireMeButton{
+    top: 210px;
+}
+
+.HireMeButton Button{
+    padding: 5px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+.MuiButton-label{
+    font-size: 12px;
+}
+
+
+}
+
+@media screen and (min-width: 451px) and (max-width:850px) {
+    .Cover-text{
+        top: 8%;
+        left: 7%;
+    }
+    
+    
+    .Cover-text p:nth-child(1){
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    .Cover-text p:nth-child(2){
+        font-size: 24px;
+        font-weight: 900;
+        margin-left: 45px;
+        
+    }
+    
+    
+    .Cover-text p:nth-child(2) span{
+        font-weight: 400;
+        margin-left: 8px;
+    }
+    
+    
+    .Cover-text p:nth-child(3){
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    
+    
+    .Typewriter{
+        margin-left: 14px;
+        font-size: 20px;
+    }
+    
+    .HireMeButton{
+        top: 300px;
+    }
+    
+
+    /* ButtonGroup{
+        width: 80px;
+        height: 0px;
+    } */
+
+    .Hire-button{
+        padding: 0px;
+        width: 40px;
+        height: 10px;
+        margin: 0px;
+        border-radius: 10px;
+    }
+    
+    .MuiButton-label{
+        font-size: 12px;
+    }
+
+    .hire-button-text{
+        font-size: 10px;
+        margin:auto;
+    }
+    
+
+}
+
+
+
+
+@media screen and (min-width: 851px) {
+    .Cover-text{
+        top: 13%;
+        left: 10%;
+    }
+    
+    
+    .Cover-text p:nth-child(1){
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    
+    .Cover-text p:nth-child(2){
+        font-size: 38px;
+        font-weight: 900;
+        margin-left: 60px;
+        
+    }
+    
+    
+    .Cover-text p:nth-child(2) span{
+        font-weight: 400;
+        margin-left: 12px;
+    }
+    
+    
+    .Cover-text p:nth-child(3){
+        display: flex;
+        align-items: center;
+        margin-left: 65px;
+        font-size: 20px;
+    }
+    
+    
+    .Typewriter{
+        margin-left: 16px;
+        font-size: 28px;
+    }
+    
+    .HireMeButton{
+        top: 500px;
+    }
+    
+    .HireMeButton Button{
+        padding: 10px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    
+    .MuiButton-label{
+        font-size: 12px;
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hire Button */
+
+.HireMeButton{
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+}
+
+.HireMeButton Button{
+    font-size: 20px;
+    width: 140px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: 'Abril Fatface', serif;
+    letter-spacing: 0.021in;
+    color: rgb(255, 255, 255);
+    background-color: rgba(88, 84, 84, 0.432);
+    transition: 0.5s;
+    
+}
+
+
+.HireMeButton Button:hover{
+    color: rgb(219, 215, 215);
+    transform: scale(1.01);
+}
+
+
+.HireMeButton Button:hover:after{
+    background: #8341FC;
+    content: '';
+    position: absolute;
+    z-index: -10;
+    height: 120%;
+    width: 120%;
+    border-top-right-radius: 30px;
+    bottom: -100px;
+    left: -300px ;
+    animation: ColorHoverEffects 0.3s forwards ease-in-out;
+}
+
+.hire-button-text{
+    margin:auto; 
+} 
+
+.HireMeButton:hover button a{
+    color: rgb(219, 215, 215);
+}
+
+@keyframes ColorHoverEffects{
+    from{bottom: -100px; left: -300px;}
+    to{bottom: 0px;  left: 0px;}
+}
+
+
+
+
+
+
+
+/* Cover Bottom style */
+
+.coverBottomStyle{
+    margin-top: -15px;
+    z-index: 500;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coverBottomStyle div{
+    height: 40px;
+    min-width: 40px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(45deg);
+}
+
+
+@media screen and (min-width: 0px) and (max-width:580px) {
+
+
+
+    .coverBottomStyle .one{
+        display: none;
+    }
+
+    .coverBottomStyle .two{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 581px){
+    
+    .coverBottomStyle .one{
+        display: none;
+    }
+
+}

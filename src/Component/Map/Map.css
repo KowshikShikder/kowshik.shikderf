@@ -1,0 +1,183 @@
+.Drop-map-parent{
+    height: 800px;
+    width: 100%;
+    background: rgb(8, 8, 8);
+    position: relative;
+}
+
+.map{
+    position: absolute;
+    bottom: 0;
+    height: 450px;
+    width: 100%;
+    background: black;
+    z-index: 500;
+    /* filter: invert(90%) */
+}
+
+.map iframe{
+    height: 450px;
+    width: 100%;
+}
+
+
+.drop-massage{
+    height: 450px;
+    width: 320px;
+    background: rgb(255, 255, 255);
+    z-index: 800;
+    position: absolute;
+    top:20px;
+    right: 100px;
+    box-shadow: 0px 0px 30px -5px black;
+}
+
+.drop-massage p{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.drop-massage form label{
+    width: 60%;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.drop-massage form input{
+    margin-left: 0px ;
+    margin-top: 2px;
+    width: 60%;
+    height: 35px;
+}
+
+.drop-massage form textarea{
+    width: 60%;
+    height: 80px;
+    border-radius: 5px;
+    
+}
+
+.drop-massage form button{
+    margin-top: -5px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:500px) {
+    .Drop-map-parent{
+        height: 590px;
+    }
+    
+    .map{
+        height: 250px;
+    }
+    
+    .map iframe{
+        height: 250px;
+    }
+    
+
+    
+    .drop-massage{
+        height: 380px;
+        width: 280px;
+        position: relative;
+        margin: auto;
+        right: 0;
+
+    }
+
+    .drop-massage p{
+        font-size: 22px;
+        font-weight: 500;
+        margin: 20px;
+        padding-top: 15px;
+    }
+
+    .drop-massage form label{
+        width: 65%;
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
+
+
+    .drop-massage form input{
+        width: 65%;
+        height: 28px;
+    }
+
+    .drop-massage form textarea{
+        width: 65%;
+        height: 65px;
+        
+    }
+
+    .drop-massage form button{
+        margin-top: -10px;
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width:501px) and (max-width:850px) {
+    .Drop-map-parent{
+        height: 680px;
+    }
+    
+    .map{
+        height: 350px;
+        width: 100%;
+    }
+    
+    .map iframe{
+        height: 350px;
+    }
+    
+
+    
+.drop-massage{
+    height: 400px;
+    width: 280px;
+}
+
+.drop-massage p{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.drop-massage form label{
+    width: 65%;
+    font-size: 18px;
+}
+
+
+
+.drop-massage form input{
+    width: 65%;
+    height: 32px;
+}
+
+.drop-massage form textarea{
+    width: 65%;
+    height: 70px;
+    
+}
+
+.drop-massage form button{
+    margin-top: -10px;
+}
+}

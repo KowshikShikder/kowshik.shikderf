@@ -1,0 +1,244 @@
+.contact-main{
+    width: 100%;
+    height: 780px;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.title-contact{
+    margin-top: 60px;
+}
+
+.Contact-parent{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 500px;
+    background-color: #E90353;
+    margin-left: 20px;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.Contact:hover{
+    /* box-shadow: 0px 0px 25px 3px  !important; */
+    transform: scale(1.03);
+}
+
+.contact-placeholder{
+    height: 50px;
+    width: 100px;
+    background: #0080F7;
+    color: white;
+    z-index: 500;
+    position: absolute;
+    margin-top: -115px;
+    margin-left: -180px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.Content-placeholder:hover .contact-placeholder{
+    margin-left: 180px !important;
+    opacity: 1;
+
+}
+
+
+
+.contact-placeholder p{
+    background: #0080F7;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 1px;
+}
+
+
+.placeholder-style{
+    position: absolute;
+    z-index: -100;
+    bottom: -10px;
+    height: 25px;
+    width: 25px;
+    background: #0080F7;
+    transform: rotate(45deg);
+}
+
+
+.contact-icon{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact:hover .contact-icon{
+    transform: rotate(1080deg);
+}
+
+.contact-icon i{
+    font-size: 50px;
+}
+
+.Contact:hover .contact-icon{
+    left: 84%;
+}
+
+.contact-text{
+    font-size: 22px;
+    color: white;
+    height: 40px;
+    transition: 0.4s ;
+    position: absolute;
+    overflow: hidden;
+}
+
+.text-2{
+    margin-left: -200%;
+}
+
+
+.Contact:hover .text-1{
+    margin-left: 130%;
+}
+
+.Contact:hover .text-2{
+    margin-left: -10%;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:450px) {
+
+
+    .contact-main{
+        height: 580px;
+    }
+    
+    .title-contact{
+        margin-top: 30px;
+    }
+
+    .Contact-parent{
+        margin-top: 20px;
+    }
+
+
+    .Contact{
+        height: 50px;
+        width: 280px;
+        margin-left: auto;
+
+    }
+
+    .contact-text{
+        font-size: 14px;
+    }
+    .text-1{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .Content-placeholder:hover .contact-placeholder{
+        margin-left: 55px !important;
+    }
+
+
+    .contact-icon{
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact-icon i{
+        font-size: 28px;
+    }
+
+    .Contact:hover .contact-icon{
+        left: 82%;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:451px) and (max-width:571px) {
+    
+    .contact-main{
+        height: 670px;
+    }
+    
+    .title-contact{
+        margin-top: 40px;
+    }
+
+    .Contact-parent{
+        margin-top: 30px;
+    }
+
+
+    .Contact{
+        height: 60px;
+        width: 400px;
+    }
+
+    .contact-text{
+        font-size: 18px;
+    }
+    .text-1{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .Content-placeholder:hover .contact-placeholder{
+        margin-left: 120px !important;
+    }
+
+
+    .contact-icon{
+        height: 60px;
+        width: 60px;
+    }
+
+    .contact-icon i{
+        font-size: 35px;
+    }
+    
+
+    .Contact:hover .contact-icon{
+        left: 85%;
+    }
+}

@@ -1,0 +1,83 @@
+.my-image-parents{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.my-image::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(5, 5, 5, 0.185);
+    border-radius: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: MyImage 1.5s ease-out 0.8s forwards;
+}
+
+
+@keyframes MyImage {
+    from{ border-radius: 40px; }
+    to{ border-radius: 50%; }
+}
+
+
+[data-aos="image-animation"] {
+    background-image: url(./Images/1625043492382.png);
+    position: absolute;
+    border-radius: 40px;
+    border:0.5px solid rgba(255, 255, 255, 0.075);
+    height: 350px;
+    width: 230px;
+    background-position: top center;
+    background-size: 100%;
+    box-shadow: -2px 2px 25px -10px rgb(255, 255, 255);
+    transition: 0.5s;
+    z-index: 800;
+    top: -90px;
+    right: 0;
+    left: -150%;
+}
+
+@media screen and (min-width:0px) and (max-width:650px) {
+
+    [data-aos="image-animation"] {
+        left: -200%;
+    }
+
+    [data-aos="image-animation"].aos-animate {
+        background-image: url(./Images/_20210630_153442.JPG);
+        position: absolute;
+        background-position: center center ;
+        top: -80px;
+        left: 120px;
+        height: 120px;
+        border: none;
+        width: 120px;
+        z-index: 800;
+        padding-top: 20px;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+@media screen and (min-width:651px){
+
+    [data-aos="image-animation"].aos-animate {
+        background-image: url(./Images/_20210630_153442.JPG);
+        top: -5px;
+        position: absolute;
+        background-position: center center ;
+        left: -115px;
+        height: 120px;
+        border: none;
+        width: 120px;
+        z-index: 800;
+        padding-top: 0px;
+        border-radius: 50%;
+}
+}
+
