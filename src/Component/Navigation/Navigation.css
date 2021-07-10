@@ -1,0 +1,303 @@
+.Navigation-main{
+    top:0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+@media screen and (min-width: 0px) and (max-width:450px){
+    .Cover{
+        height: 300px;
+    }
+}
+
+
+@media screen and (min-width: 451px) and (max-width:850px){
+    .Cover{
+        height: 400px;
+    }
+    }
+
+.Navigation-Parent{
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    display: grid;
+    margin-top: 18px;
+    box-shadow: 0px 0px 25px -15px rgba(243, 245, 244, 0.692);
+    width: 100%;
+    position: absolute;
+}
+
+.Navigation-Parent Button{
+    margin-left: 10px;
+    color: white;
+    font-size: 10px;
+    transition: 0.5s;
+    box-shadow: 0px 1px 10px -5px rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    z-index: 50;
+    overflow: hidden;
+    font-weight: bolder;
+}
+
+
+
+.Navigation-Parent Button:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.01);
+
+}
+
+
+.Navigation-Parent Button:hover:after{
+    background: #272b24;
+    content: '';
+    position: absolute;
+    z-index: -10;
+    height: 120%;
+    width: 120%;
+    border-top-right-radius: 30px;
+    bottom: -30px;
+    left: -80px;
+    animation: ColorHoverEffect 0.4s forwards ease;
+}
+
+
+
+
+
+
+.Navigation-Parent .nav-menu{
+    display: none;
+}
+
+@media screen and (max-width:660px) {
+    .Navigation-Parent .nav-button{
+        display: none;
+    }
+
+    .Navigation-Parent .nav-menu{
+        display: flex;
+    }
+}
+
+
+.Navigation-Parent MenuIcon{
+    background-color:whitesmoke;
+}
+
+
+
+
+
+
+/* Side nav manu */
+.Side-nav-parent{
+    z-index: 3000;
+    height: 425px;
+    width: 280px;
+    position: relative;
+    transition: 0.5s;
+    background-color: black;
+    box-shadow: 0px 0px 30px -1px black;
+}
+
+
+.sideMenuCloseIcon{
+    display: grid;
+    justify-content: end;
+    width: 280px;
+    height: 60px;
+    background: black;
+    border-bottom: 0.5px solid white;
+}
+
+.sideMenuCloseIcon button{
+    height: 60px;
+    width: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    color: #3F51B5;
+    transition: 0.8s;
+}
+
+.ghuratis{
+    transform: rotate(720deg);
+}
+
+.sideMenuCloseIcon button:hover{
+    background: rgb(29, 27, 25);
+    color:#7FFF00;
+
+}
+
+
+/* Language */
+.language{
+    position: absolute;
+    color: white;
+    top: 5px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.language div{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+    box-shadow: 0px 1px 10px -5px rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.language div:nth-child(2){
+    color: #7FFF00;
+}
+
+.language div:hover{
+    box-shadow: 0px 1px 10px -5px #7FFF00;
+    color: #7FFF00;
+}
+
+
+
+
+
+.sideNavButton{
+    display: grid;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* .sideNavButton button Link, */
+.sideNavButton button{
+    width: 82px;
+    height: 25px;
+    margin-bottom: 12px;
+    transition: 0.5s;
+    padding: 0px !important;
+    margin-top: 8px;
+    box-shadow: 0px 1px 15px -5px rgb(255, 255, 255);
+    overflow: hidden;
+    background: rgb(38, 18, 56);
+    z-index: 3000;
+    margin-left: -150px;
+    opacity: 0;
+}
+.sideNavButton button .link{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 25px;
+    font-weight: 700;
+    font-size: 11px;
+    margin: auto;
+
+}
+
+
+.sideNavButton button:nth-child(1){
+    animation: SideButtonEffect 0.5s 0.1s  forwards linear;
+}
+
+.sideNavButton button:nth-child(2){
+    animation: SideButtonEffect 0.5s 0.3s  forwards linear;
+}
+
+.sideNavButton button:nth-child(3){
+    animation: SideButtonEffect 0.5s 0.5s  forwards linear;
+}
+
+.sideNavButton button:nth-child(4){
+    animation: SideButtonEffect 0.5s 0.7s  forwards linear;
+}
+
+.sideNavButton button:nth-child(5){
+    animation: SideButtonEffect 0.5s 0.9s  forwards linear;
+}
+
+.sideNavButton button:nth-child(6){
+    animation: SideButtonEffect 0.5s 0.11s  forwards linear;
+}
+
+
+.sideNavButton button:nth-child(7){
+    animation: SideButtonEffect 0.5s 0.13s  forwards linear;
+}
+
+
+
+.sideNavButton button:hover .link::after{
+    background: #0553e6;
+    content: '';
+    position: absolute;
+    z-index: -200;
+    height: 120%;
+    width: 120%;
+    border-top-right-radius: 30px;
+    bottom: -30px;
+    left: -80px;
+    animation: ColorHoverEffect 0.4s forwards ease;
+}
+
+
+
+
+
+@keyframes ColorHoverEffect{
+    from{bottom: -30px; left: -80px;}
+    to{bottom: 0px;  left: 0px;}
+}
+
+
+@keyframes SideButtonEffect {
+    from{margin-left: -150px; opacity: 0;}
+    to{margin-left: 0px; opacity: 1;}
+}
+
+
+
+.SideNav-line{
+    position: absolute;
+    border-left: 2px solid #0553e6;
+    height: 275px;
+    top: 15px;
+    left: -20px;
+}
+
+.putupPutu{
+    height: 10px;
+    width: 9px;
+    margin-left: -5.5px;
+    border-radius: 50%;
+    background: #0553e6;
+}
+
+.putupPutu:nth-child(1){
+    margin-top: 0px;
+}
+
+.putupPutu:nth-child(2){
+    margin-top: 35px;
+}
+
+.putupPutu:nth-child(3){
+    margin-top: 36px;
+}
+
+.putupPutu:nth-child(4){
+    margin-top: 34px;
+}
+
+.putupPutu:nth-child(5){
+    margin-top: 38px;
+}
+
+.putupPutu:nth-child(6){
+    margin-top: 33px;
+}
+
+.putupPutu:nth-child(7){
+    margin-top: 32px;
+}

@@ -1,0 +1,126 @@
+
+
+[data-aos="about-animation"] {
+    position: absolute;
+    max-width: 375px;
+    max-height: 200px;
+    background-color: #2e2577;
+    box-shadow: 0px 0px 18px -10px rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    right: -38%;
+    left: 100%;
+    top: 25%;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:400px) {
+    [data-aos="about-animation"].aos-animate {
+        max-width: 325px !important;
+        max-height: 220px !important;
+        left: 3% !important;
+
+
+    }
+}
+
+
+@media screen and (min-width:401px) and (max-width:450px) {
+    [data-aos="about-animation"].aos-animate {
+        left: 5% !important;
+    }
+}
+
+
+@media screen and (min-width:451px) and (max-width:500px) {
+
+    [data-aos="about-animation"].aos-animate {
+        left: 10% !important;
+    }
+
+}
+
+
+@media screen and (min-width:501px) and (max-width:550px) {
+
+    [data-aos="about-animation"].aos-animate {
+        left: 15% !important;
+    }
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:650px) {
+
+    [data-aos="about-animation"].aos-animate {
+        
+        position: absolute;
+        max-width: 375px;
+        max-height: 200px;
+        box-shadow: 0px 0px 18px -10px rgb(255, 255, 255);
+        border-radius: 10px;
+        text-align: left;
+        padding: 10px;
+        color: white;
+        right: 0%;
+        left: 20%;
+        top: 25%;
+    
+    }
+    }
+
+
+@media screen and (min-width:651px) and (max-width:700px) {
+
+[data-aos="about-animation"].aos-animate {
+    
+    position: absolute;
+    width: 375px;
+    height: 200px;
+    right: 8%;
+    left: 30%;
+    top: 25%;
+
+}
+}
+
+
+
+@media screen and (min-width:701px){
+[data-aos="about-animation"].aos-animate {
+    
+    position: absolute;
+    width: 375px;
+    height: 200px;
+    right: 28%;
+    left: 35%;
+    top: 25%;
+
+}
+}
+
+
+
+.About p:nth-child(1){
+    width: 150px;
+    background-color: rgb(91, 138, 15);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.About p:nth-child(2){
+    background-color: rgba(30, 24, 85, 0.486);
+    letter-spacing: 0.0081in;
+    line-height: 0.16in;
+    padding: 6px;
+    font-size: 10.5px;
+}

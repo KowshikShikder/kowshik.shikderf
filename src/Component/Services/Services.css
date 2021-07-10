@@ -1,0 +1,162 @@
+.Services-parent-main{
+    height: 720px;
+    width: 100%;
+    background-color: rgb(25, 25, 34);
+    /* background: white; */
+    border-bottom: 1px solid white;
+    border-top:0.1px solid white;
+}
+
+
+.title-service{
+    margin-top: 50px;
+}
+
+
+
+.Services-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.service{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    background-color: white;
+    width: 250px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 1px 4px 15px 0.1px black;
+    transition: 0.4s;
+}
+
+
+.Service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    height: 50px;
+    width: 65px;
+    border-top-right-radius: 180px;
+    border-top-left-radius: 130px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    transition: 0.4s;
+
+}
+
+
+.service:hover .Service-icon{
+    transform: scale(1.03);
+    box-shadow: 3px 5px 15px -1px black;
+}
+
+.Service-icon i{
+    font-size: 26px;
+    color: silver;
+}
+
+
+.Service-title{
+    position: absolute;
+    top: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s;
+
+}
+
+.Service-details{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 105px;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+    transition: 0.4s;
+
+}
+
+
+.service:hover .Service-details{
+    transform: scale(1.03);
+    box-shadow: 4px 7px 25px 1px black;
+}
+
+@media screen and (min-width:0px) and (max-width:615px){
+
+    .Services-parent-main{
+        height: 1420px;
+    }
+
+
+    .title-service{
+        margin-top: 30px;
+    }
+
+    .Services-parent{
+        grid-template-columns:auto;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+
+    .service{
+        margin-top: 40px;
+        height: 150px ;
+        width: 240px ;
+    }
+
+    .Service-title{
+        font-size: 15px;
+    }
+
+    .Service-details{
+        height: 80px;
+        width: 215px;
+        padding: 8px;
+        font-size: 9.5px;
+    }
+
+}
+
+
+@media screen and (min-width:616px) and (max-width:850px) {
+
+
+
+    .title-service{
+        margin-top: 40px;
+    }
+
+    .Services-parent-main{
+        height: 920px;
+    }
+
+    .Services-parent{
+        grid-template-columns:auto auto;
+        justify-content: space-around;
+    }
+
+    .service{
+        margin-top: 50px;
+    }
+
+}
+
+

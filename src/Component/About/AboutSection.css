@@ -1,0 +1,20 @@
+.title-about{
+    margin-top: 50px;
+}
+
+
+#about{
+    /* background-color: brown; */
+    margin-top: 125px;
+}
+
+.about-section{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}

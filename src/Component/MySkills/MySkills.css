@@ -1,0 +1,381 @@
+.title{
+    color: #dce2fd;
+    font-weight:600;
+    border-bottom: 2px solid red;
+    width: 250px;
+    margin: auto;
+}
+
+
+@media screen and (min-width:0px) and (max-width:550px) {
+    .title{
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (min-width:551px) {
+    .title{
+        font-size: 30px;
+    }
+}
+
+
+.title-mySkills{
+    margin-top: 50px;
+}
+
+
+.MySkills-parents{
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    height: 800px;
+    border-top: 1px solid white;
+}
+
+
+.MySkills-main{
+    margin-top: 50px;
+}
+
+
+
+.bar{
+    position: relative;
+    height: 70px;
+    width: 420px;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    z-index: 800;
+    box-shadow:0px 1px 22px -15px white ;
+
+}
+
+.oneBar{
+    margin-left: -30%;
+}
+
+.twoBar{
+    margin-left: 30%;
+}
+
+/* Responsive Skill section */
+
+@media screen and (min-width:0px) and (max-width:450px) {
+
+
+    .title-mySkills{
+        margin-top: 35px;
+    }
+    
+
+    .MySkills-parents{
+        height: 580px;
+    }
+
+    .MySkills-main{
+        margin-top: 0px;
+    }
+
+
+.bar{
+    width: 290px ;
+    height: 50px ;
+    margin: 5px !important;
+}
+
+.skills-icon{
+    width: 60px !important;
+    height: 50px !important;
+    padding: 5px !important;
+    
+}
+
+
+.skills-bar{
+    margin-left: 60px !important;
+    padding: 5px;
+
+
+}
+.skills-icon i{
+    font-size: 30px !important;
+}
+
+.twoBar .skills-bar p{
+    left: 242PX !important;
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    .oneBar{
+        margin-left: 0%;
+    }
+
+    .twoBar{
+        margin-left: 0%;
+    }
+    
+
+    .twoBar .skills-icon{
+        left: 0 !important;
+        margin-left: 0px !important;
+    }
+
+
+
+    .twoBar .skills-bar .progressBar{
+        transform: rotate(0deg) !important;
+        margin-left: 0px !important;
+    }
+    
+}
+
+@media screen and (min-width:451px) and (max-width:700px) {
+
+
+    .MySkills-parents{
+        height: 780px;
+    }
+    
+
+    .twoBar .skills-bar p{
+        position: absolute;
+        left: 340PX !important;
+        right: 0 !important;
+    }
+
+}
+
+
+/* Skills Icon */
+
+.skills-icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.329);
+}
+
+.skills-icon i{
+    font-size: 40px;
+}
+
+
+.twoBar .skills-icon{
+    right: 0;
+    margin-left: 10px;
+}
+
+
+
+
+.html .skills-icon i{
+    color: #F75421;
+}
+
+
+.css .skills-icon i{
+    color: #0068BA;
+}
+
+.javaScript .skills-icon i{
+    color: #EFD81D;
+}
+
+.react .skills-icon i{
+    color: #00D1F7;
+}
+
+.nodeJs .skills-icon i{
+    color: #7FC728;
+}
+
+.mongodb .skills-icon i{
+    color: #569134;
+}
+
+
+
+
+
+
+
+/* Skills Bar */
+
+.skills-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 90px;
+    padding: 5px;
+    width: 80%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+
+
+
+.progressBar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    background: #000000;
+}
+
+.progressBar-inner{
+    position: absolute;
+    height: 12px;
+    width: 80%;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+}
+
+
+@media screen and (min-width:701px) {
+
+.twoBar .skills-bar .progressBar{
+    transform: rotate(180deg);
+    margin-left: -25px !important;
+}
+}
+
+
+.html .progressBar .progressBar-inner{
+    background: #F75421;
+}
+
+.css .progressBar .progressBar-inner{
+    background: #0068BA;
+}
+
+.javaScript .progressBar .progressBar-inner{
+    background: #EFD81D;
+}
+
+.react .progressBar .progressBar-inner{
+    background: #00D1F7;
+}
+
+.nodeJs .progressBar .progressBar-inner{
+    background: #7FC728;
+}
+
+.mongodb .progressBar .progressBar-inner{
+    background: #569134;
+}
+
+
+/* Animation on Scroll */
+
+[data-aos="html"]{
+    width: 0%;
+}
+
+[data-aos="html"].aos-animate {
+    width: 90%;
+}
+
+
+
+/*  */
+[data-aos="css"]{
+    width: 0%;
+}
+
+[data-aos="css"].aos-animate {
+    width: 85%;
+}
+
+
+
+/*  */
+[data-aos="js"]{
+    width: 0%;
+}
+
+[data-aos="js"].aos-animate {
+    width: 70%;
+}
+
+
+
+/*  */
+[data-aos="react"]{
+    width: 0%;
+}
+
+[data-aos="react"].aos-animate {
+    width: 75%;
+}
+
+
+
+
+/*  */
+[data-aos="node"]{
+    width: 0%;
+}
+
+[data-aos="node"].aos-animate {
+    width: 75%;
+}
+
+
+
+
+
+/*  */
+[data-aos="mongo"]{
+    width: 0%;
+}
+
+[data-aos="mongo"].aos-animate {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills In Number */
+
+.twoBar .skills-bar p{
+    position: absolute;
+    left: 20px;
+}
+
+.skills-bar p{
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+}

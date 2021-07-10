@@ -1,0 +1,24 @@
+import React from 'react'
+
+
+export default function ProjectsItem(props) {
+
+const {image, webSiteName} =props;
+
+
+
+    return (
+
+            <div className="projects" >
+                <p id="MyImage"> {webSiteName} </p>
+
+                <div className="project-img">
+
+                    <img src={`${window.location.origin}/Images/${image}`} alt="" />
+
+
+                </div>
+
+            </div>
+    )
+}
