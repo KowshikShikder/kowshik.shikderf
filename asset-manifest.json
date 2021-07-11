@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/KowshikShikder/kowshik.shikderf.git/static/css/main.3fdbdb3d.chunk.css",
-    "main.js": "/KowshikShikder/kowshik.shikderf.git/static/js/main.1d77a541.chunk.js",
-    "main.js.map": "/KowshikShikder/kowshik.shikderf.git/static/js/main.1d77a541.chunk.js.map",
-    "runtime-main.js": "/KowshikShikder/kowshik.shikderf.git/static/js/runtime-main.9575e56f.js",
-    "runtime-main.js.map": "/KowshikShikder/kowshik.shikderf.git/static/js/runtime-main.9575e56f.js.map",
-    "static/css/2.8134ead3.chunk.css": "/KowshikShikder/kowshik.shikderf.git/static/css/2.8134ead3.chunk.css",
-    "static/js/2.08320ac5.chunk.js": "/KowshikShikder/kowshik.shikderf.git/static/js/2.08320ac5.chunk.js",
-    "static/js/2.08320ac5.chunk.js.map": "/KowshikShikder/kowshik.shikderf.git/static/js/2.08320ac5.chunk.js.map",
-    "static/js/3.b214d567.chunk.js": "/KowshikShikder/kowshik.shikderf.git/static/js/3.b214d567.chunk.js",
-    "static/js/3.b214d567.chunk.js.map": "/KowshikShikder/kowshik.shikderf.git/static/js/3.b214d567.chunk.js.map",
-    "index.html": "/KowshikShikder/kowshik.shikderf.git/index.html",
-    "static/css/2.8134ead3.chunk.css.map": "/KowshikShikder/kowshik.shikderf.git/static/css/2.8134ead3.chunk.css.map",
-    "static/css/main.3fdbdb3d.chunk.css.map": "/KowshikShikder/kowshik.shikderf.git/static/css/main.3fdbdb3d.chunk.css.map",
-    "static/js/2.08320ac5.chunk.js.LICENSE.txt": "/KowshikShikder/kowshik.shikderf.git/static/js/2.08320ac5.chunk.js.LICENSE.txt",
-    "static/media/MyImage.css": "/KowshikShikder/kowshik.shikderf.git/static/media/_20210630_153442.b8c4bfdf.JPG",
-    "static/media/Cover.css": "/KowshikShikder/kowshik.shikderf.git/static/media/nubelson-fernandes-UcYBL5V0xWQ-unsplash.93f6d51e.jpg"
+    "main.css": "/kowshik.shikderf/static/css/main.d7350761.chunk.css",
+    "main.js": "/kowshik.shikderf/static/js/main.1d77a541.chunk.js",
+    "main.js.map": "/kowshik.shikderf/static/js/main.1d77a541.chunk.js.map",
+    "runtime-main.js": "/kowshik.shikderf/static/js/runtime-main.b7130ddb.js",
+    "runtime-main.js.map": "/kowshik.shikderf/static/js/runtime-main.b7130ddb.js.map",
+    "static/css/2.8134ead3.chunk.css": "/kowshik.shikderf/static/css/2.8134ead3.chunk.css",
+    "static/js/2.08320ac5.chunk.js": "/kowshik.shikderf/static/js/2.08320ac5.chunk.js",
+    "static/js/2.08320ac5.chunk.js.map": "/kowshik.shikderf/static/js/2.08320ac5.chunk.js.map",
+    "static/js/3.b214d567.chunk.js": "/kowshik.shikderf/static/js/3.b214d567.chunk.js",
+    "static/js/3.b214d567.chunk.js.map": "/kowshik.shikderf/static/js/3.b214d567.chunk.js.map",
+    "index.html": "/kowshik.shikderf/index.html",
+    "static/css/2.8134ead3.chunk.css.map": "/kowshik.shikderf/static/css/2.8134ead3.chunk.css.map",
+    "static/css/main.d7350761.chunk.css.map": "/kowshik.shikderf/static/css/main.d7350761.chunk.css.map",
+    "static/js/2.08320ac5.chunk.js.LICENSE.txt": "/kowshik.shikderf/static/js/2.08320ac5.chunk.js.LICENSE.txt",
+    "static/media/MyImage.css": "/kowshik.shikderf/static/media/_20210630_153442.b8c4bfdf.JPG",
+    "static/media/Cover.css": "/kowshik.shikderf/static/media/nubelson-fernandes-UcYBL5V0xWQ-unsplash.93f6d51e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9575e56f.js",
+    "static/js/runtime-main.b7130ddb.js",
     "static/css/2.8134ead3.chunk.css",
     "static/js/2.08320ac5.chunk.js",
-    "static/css/main.3fdbdb3d.chunk.css",
+    "static/css/main.d7350761.chunk.css",
     "static/js/main.1d77a541.chunk.js"
   ]
 }
