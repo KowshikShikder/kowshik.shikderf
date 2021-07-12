@@ -86,7 +86,7 @@
 
 @media screen and (min-width:0px) and (max-width:550px) {
     .Projects-main{
-        height: 620px;
+        height: 670px;
     }
     
     .title-project{
@@ -102,7 +102,7 @@
 @media screen and (min-width:551px) {
     
     .Projects-main{
-        height: 660px;
+        height: 680px;
     }
     
     .title-project{
