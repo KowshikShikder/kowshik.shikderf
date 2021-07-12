@@ -47,9 +47,9 @@
     }
 
     [data-aos="image-animation"].aos-animate {
-        background-image: url(../Cover/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+        background-image: url(./Images/1625043492382.png);
         position: absolute;
-        background-position: center center ;
+        background-position: top top ;
         top: -80px;
         left: 120px;
         height: 120px;
@@ -67,7 +67,7 @@
 @media screen and (min-width:651px){
 
     [data-aos="image-animation"].aos-animate {
-        background-image: url(./Images/_20210630_153442.JPG);
+        background-image: url(./Images/1625043492382.png);
         top: -5px;
         position: absolute;
         background-position: top top ;
