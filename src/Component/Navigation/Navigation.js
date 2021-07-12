@@ -14,6 +14,7 @@ export default function Navigation() {
 
     const sideNavMenuOpen=()=>{
         document.getElementById("Close-button").classList.remove("ghuratis");
+        document.getElementById("sideNavButton").style.display="grid"
         setOpenMenu("0px")
     }
     
@@ -23,6 +24,8 @@ export default function Navigation() {
         document.getElementById("Close-button").classList.add("ghuratis");
         setTimeout(()=>{
             setOpenMenu("-300px");
+            document.getElementById("sideNavButton").style.display="none"
+
         },800)
 
     }
@@ -80,7 +83,7 @@ export default function Navigation() {
                     <div className="btn"> BN </div> <div className="btn"> EN </div>
                 </div>
 
-                <div className="sideNavButton"> 
+                <div className="sideNavButton" id="sideNavButton"> 
                 <Button>  <Link to="#home" className="link">       Home       </Link> </Button>
                 <Button>  <Link to="#about" className="link">      About      </Link> </Button>
                 <Button>  <Link to="#skills" className="link">     Skills     </Link> </Button>

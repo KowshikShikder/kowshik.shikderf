@@ -40,7 +40,9 @@ window.addEventListener('scroll', ()=>{
                 </p>
 
             </div>
-            <div className="animation" style={{marginTop: Parallax}} > <img src={`${window.location.origin}/Images/thinkingAnimi.png`} alt="" /> </div>
+            <div className="animation" style={{marginTop: Parallax}} > 
+            <img src={`${window.location.origin}/kowshik.shikderf/Images/thinkingAnimi.png`} alt="" /> 
+            </div>
 
             <div class="HireMeButton" style={{marginTop: Parallax}} >
                 <ButtonGroup >

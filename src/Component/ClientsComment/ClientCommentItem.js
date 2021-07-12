@@ -12,7 +12,7 @@ const {image, name, identity, comment} = props;
                 
                 
 
-                <div className="image"> <img src={`${window.location.origin}/Images/${image}`} alt="" />  </div>
+                <div className="image"> <img src={`${window.location.origin}/kowshik.shikderf/Images/${image}`} alt="" />  </div>
                 <div className="Client-name"> <p className="name"> {name} </p> <p className="identity"> {identity} </p>  </div>
 
                 <div className="comment">

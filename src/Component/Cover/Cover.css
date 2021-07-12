@@ -36,6 +36,10 @@
 
 
 .animation {
+    /* background-image: url(../../Images/thinkingAnimi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; */
     position: absolute;
     height: 280px;
     width: 400px;
@@ -526,7 +530,7 @@
 
 
 .HireMeButton Button:hover:after{
-    background: #8341FC;
+    background: #5453D8;
     content: '';
     position: absolute;
     z-index: -10;
