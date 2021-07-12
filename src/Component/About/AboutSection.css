@@ -1,11 +1,10 @@
 .title-about{
-    margin-top: 50px;
+    position: relative;
 }
 
 
 #about{
-    /* background-color: brown; */
-    margin-top: 125px;
+    display: grid;
 }
 
 .about-section{

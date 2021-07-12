@@ -10,6 +10,7 @@ export default function AboutSection() {
             </div> 
             
         <div className="about-section">
+            
             <About/>
         </div>
         </div>
