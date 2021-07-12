@@ -42,12 +42,12 @@
 
 @media screen and (min-width:0px) and (max-width:650px) {
 
-    /* [data-aos="image-animation"] {
+    [data-aos="image-animation"] {
         left: -200%;
-    } */
+    }
 
     [data-aos="image-animation"].aos-animate {
-        background-image: url(./Images/_20210630_153442.JPG);
+        background-image: url(./Images/1625043492382.png);
         position: absolute;
         background-position: center center ;
         top: -80px;
@@ -70,7 +70,8 @@
         background-image: url(./Images/_20210630_153442.JPG);
         top: -5px;
         position: absolute;
-        background-position: center center ;
+        background-position: top top ;
+        background-size: 100%;
         left: -115px;
         height: 120px;
         border: none;
