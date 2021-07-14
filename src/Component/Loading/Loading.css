@@ -32,7 +32,7 @@
   
   .pillar:nth-child(2){
     height: 45px;
-    animation: Pillar2 4s infinite;
+    animation: Pillar2 4s infinite linear;
   
   }
   
@@ -42,13 +42,13 @@
   
   .pillar:nth-child(4){
     height: 15px;
-    animation: Pillar4 4s infinite;
+    animation: Pillar4 4s infinite linear;
   
   }
   
   .pillar:nth-child(5){
     height: 1px;
-    animation: Pillar5 4s infinite;
+    animation: Pillar5 4s infinite linear;
   
   }
   
@@ -110,7 +110,7 @@
     width: 25px;
     bottom: 1px;
     right: -5px; 
-    animation: ballBouncing 4s infinite;
+    animation: ballBouncing 4s infinite linear;
   }
   
   .ball{
