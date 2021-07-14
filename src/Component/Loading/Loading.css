@@ -1,0 +1,216 @@
+.loading-parent{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+  }
+  
+  .animation-loading{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    height: 60px !important;
+    position: relative;
+  }
+  
+  .pillar{
+    background-color: rgb(255, 255, 255);
+    width: 15px;
+    margin-left: 5px;
+    transition: 0.5s;
+  }
+  
+  .pillar:nth-child(1){
+    height: 60px;
+    animation: Pillar1 4s infinite linear;
+  
+  }
+  
+  .pillar:nth-child(2){
+    height: 45px;
+    animation: Pillar2 4s infinite;
+  
+  }
+  
+  .pillar:nth-child(3){
+    height: 30px;
+  }
+  
+  .pillar:nth-child(4){
+    height: 15px;
+    animation: Pillar4 4s infinite;
+  
+  }
+  
+  .pillar:nth-child(5){
+    height: 1px;
+    animation: Pillar5 4s infinite;
+  
+  }
+  
+  
+  @keyframes Pillar1 {
+    0%{ height: 60px;  }
+    
+    45%{ height: 60px; }
+  
+    50%{ height: 1px; }
+  
+    95%{ height: 1px; }
+  
+    100%{ height: 60px; }
+  }
+  
+  @keyframes Pillar2 {
+    0%{ height: 45px;  }
+    
+    45%{ height: 45px; }
+  
+    50%{ height: 15px; }
+  
+    95%{ height: 15px; }
+  
+    100%{ height: 45px; }
+  }
+  
+  
+  @keyframes Pillar4 {
+    0%{ height: 15px;  }
+    
+    45%{ height: 15px; }
+  
+    50%{ height: 45px; }
+  
+    95%{ height: 45px; }
+  
+    100%{ height: 15px; }
+  }
+  
+  @keyframes Pillar5 {
+    0%{ height: 1px;  }
+    
+    45%{ height: 1px; }
+  
+    50%{ height: 60px; }
+  
+    95%{ height: 60px; }
+  
+    100%{ height: 1px; }
+  }
+  
+  
+  
+  
+  .ball-holder{
+    position: absolute;
+    width: 25px;
+    bottom: 1px;
+    right: -5px; 
+    animation: ballBouncing 4s infinite;
+  }
+  
+  .ball{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: crimson;
+    margin: auto;
+    transform: 0.5s;
+  }
+  
+  @keyframes ballBouncing {
+    0%{ 
+      bottom: 1px;
+      right: -5px;  
+    }
+  
+    5.5%{
+      bottom: 30px;
+      right: 10px;
+      }
+    11%{
+      bottom: 20px;
+      right: 15px;
+    }
+  
+  
+    16.5%{
+      bottom: 45px;
+      right: 25px;
+    }
+  
+  22%{
+    bottom: 31px;
+    right: 35px;
+  }
+  
+  
+  27.5%{
+    bottom: 65px;
+    right: 45px;
+  }
+  
+  33%{
+    bottom: 46px;
+    right: 55px;
+  }
+  
+  38.5%{
+    bottom: 76px;
+    right: 65px;
+  }
+  
+  44%{
+    bottom: 62px;
+    right: 75px;
+  }
+  
+  50%{
+    bottom: 1px;
+    right: 75px;
+  }
+  
+  55.5%{
+    bottom: 30px ;
+    right: 65px;
+  }
+  
+  61%{
+    bottom: 20px ;
+    right: 55px ;
+  }
+  
+  66.5%{
+    bottom: 45px ;
+    right: 45px ;
+  }
+  
+  72%{
+    bottom: 31px ;
+    right: 35px ;
+  }
+  
+  77.5%{
+    bottom: 65px ;
+    right: 25px ;
+  }
+  
+  83%{
+    bottom: 46px ;
+    right: 15px ;
+  }
+  
+  88.5%{
+    bottom: 76px ;
+    right: 5px ;
+  }
+  
+  94%{
+    bottom: 62px ;
+    right: -5px ;
+  }
+  }

@@ -11,13 +11,29 @@ import Contact from './Component/Contact/Contact'
 import Map from "./Component/Map/Map"
 import Footer from './Component/Footer/Footer';
 import {  HashRouter } from 'react-router-dom';
+import Loading from './Component/Loading/Loading';
 
 
 
 
 function App() {
+
+
+  const StopLoading=()=>{
+    document.getElementById('loading').style.display="none"
+  }
+
+
+
+
+
+
+
+
   return (
-    <div className="App">
+    <div className="App" onLoad={StopLoading}> 
+      <div id="loading" >  <Loading/> </div> 
+
       <Cover />
       
       <HashRouter>
