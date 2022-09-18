@@ -13,6 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+background-attachment: fixed;
     height:600px;
     width: 100%;
     position: relative;
