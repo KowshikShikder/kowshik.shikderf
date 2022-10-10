@@ -14,7 +14,6 @@ export default function MyImage() {
     return (
         <div className="my-image-parents" data-aos="image-animation" >
             <div className="my-image">
-                {/* <img src={`${window.location.origin}`} alt="" class=""> */}
             </div>
 
         </div>

@@ -13,6 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     height:600px;
     width: 100%;
     position: relative;
@@ -21,7 +22,7 @@
 }
 
 
-.Cover::before{
+.Cover img::before{
     content: '';
     position: absolute;
     height: 100%;
@@ -36,10 +37,6 @@
 
 
 .animation {
-    /* background-image: url(../../Images/thinkingAnimi.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%; */
     position: absolute;
     height: 280px;
     width: 400px;
