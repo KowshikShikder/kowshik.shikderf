@@ -4,7 +4,8 @@
     position: absolute;
     max-width: 375px;
     max-height: 200px;
-    background-color: #2e2577;
+    /* background-color: #2e2577; */
+    background-color: #000000;
     box-shadow: 0px 0px 18px -10px rgb(255, 255, 255);
     border-radius: 10px;
     text-align: left;
@@ -108,19 +109,22 @@
 
 .About p:nth-child(1){
     width: 150px;
-    background-color: rgb(91, 138, 15);
+    background-color: rgb(51, 0, 0);
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 24px;
     font-weight: 700;
     position: relative;
+    padding-left: 5px;
 }
 
 
 .About p:nth-child(2){
-    background-color: rgba(30, 24, 85, 0.486);
+    /* background-color: rgba(30, 24, 85, 0.486); */
+    border:1px solid rgba(255, 255, 255, 0.089);
     letter-spacing: 0.0081in;
     line-height: 0.16in;
     padding: 6px;
     font-size: 10.5px;
+    margin-top: 6px;
 }

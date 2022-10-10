@@ -8,6 +8,11 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default function Projects() {
 
+
+
+    
+
+
     return (
         <div className="Projects-main" id="projects">
             <div className="title title-project">
@@ -16,11 +21,10 @@ export default function Projects() {
 
             <div className="Projects-Parent">
             <OwlCarousel 
-
                 className='  owl-theme' 
-                autoplayTimeout={3000} 
-                autoplay={true}
-                autoplayHoverPause={true}
+                // autoplayTimeout={3000} 
+                // autoplay={true}
+                // autoplayHoverPause={true}
                 loop={true}
                 responsive={{
                         0:{
