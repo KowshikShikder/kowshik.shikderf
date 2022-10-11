@@ -22,7 +22,7 @@ window.addEventListener('scroll', ()=>{
             <div className="Cover" id="home">
         
             </div>
-            <div class="Cover-text" style={{transform:`translateY(Parallax)`}}  >
+            <div class="Cover-text" style={{transform:`translateY({Parallax})`}}  >
                 <p   data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"> Hi,</p>
                 <p  data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"> This is <span>  Kowshik </span></p>
                 <p  data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"> Work with  
@@ -52,33 +52,6 @@ window.addEventListener('scroll', ()=>{
             </Button>
             </ButtonGroup>
             </div>
-
-            {/* <div className="coverBottomStyle">
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="one">    </div>
-                <div className="two">    </div>
-                <div className="two">    </div>
-                <div className="two">    </div>
-                <div className="two">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-                <div className="three">    </div>
-            </div> */}
         </div>
     )
 }
