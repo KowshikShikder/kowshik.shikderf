@@ -5,7 +5,7 @@ export default function ProjectsItem(props) {
 
 const {image, webSiteName} =props;
 
-    document.querySelector('.projects').scroll
+    // document.querySelector('.projects').scroll
 
 
     return (
