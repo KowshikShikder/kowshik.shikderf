@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 
 export default function ProjectsItem(props) {
 
 const {image, webSiteName} =props;
 
-    // document.querySelector('.projects').scroll
 
+
+    const scrollToBottom = () => {
+        // window.scrollTo(300, 500);
+        // document.querySelector(".projects").scroll="200"
+    }
 
     return (
 
-            <div className="projects" >
+            <div className="projects" onClick={scrollToBottom}>
                 <p id="MyImage"> {webSiteName} </p>
 
                 <div className="project-img">

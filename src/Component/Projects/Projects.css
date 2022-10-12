@@ -36,6 +36,7 @@
 
 
 
+
 .owl-item{
     margin-top: 30px;
     padding: 10px;
@@ -53,6 +54,7 @@
 
 .project-img{
     overflow: scroll;
+    overflow: hidden;
     overflow-x: hidden;
     margin-top: 40px;
     display: flex;
@@ -69,13 +71,12 @@
 
 .project-img img{
     height: 1200px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
-.project-img:hover img{
-    /* height: 2000px; */
+/* .project-img:hover img{
     transition: 0.5s;
-}
+} */
 
 
 .project-img:hover{
@@ -83,8 +84,26 @@
     top:-80px;
     height:400px ;
     width: 250px;
+}
+.project-img:hover img{
+    /* bottom: 0px; */
+    /* transition: 10s; */
+    /* bottom: -800px; */
+    animation:ScrollEffect 5s 1s ease-in-out forwards;
+}
+
+.project-img img{
+    position: absolute;
+    transform: translateY(0px);
 
 }
+
+
+@keyframes ScrollEffect {
+    from{ transform: translateY(0px); }
+    to{ transform: translateY(-800px); }
+}
+
 
 
 @media screen and (min-width:0px) and (max-width:550px) {
