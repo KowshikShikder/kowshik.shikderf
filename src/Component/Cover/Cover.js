@@ -22,6 +22,7 @@ window.addEventListener('scroll', ()=>{
             <div className="Cover" id="home">
         
             </div>
+            {/* <div class="Cover-text" style={{marginTop: Parallax}}  > */}
             <div class="Cover-text" style={{transform:`translateY(${Parallax}px)`}}  >
                 <p   data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"> Hi,</p>
                 <p  data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"> This is <span>  Kowshik </span></p>
@@ -40,9 +41,11 @@ window.addEventListener('scroll', ()=>{
                 </p>
 
             </div>
-            <div className="animation" style={{transform:`translateY(${Parallax}px)`}}> <img src={`${window.location.origin}/Images/thinkingAnimi.png`} alt="" /> </div>
+            <div className="animation" style={{transform:`translateY(${Parallax}px)`}}  > 
+            <img src={`${window.location.origin}/kowshik.shikderf/Images/thinkingAnimi.png`} alt="" /> 
+            </div>
 
-            <div class="HireMeButton" style={{transform:`translateY(${Parallax}px)`}}>
+            <div class="HireMeButton" style={{marginTop: Parallax}} >
                 <ButtonGroup >
             <Button className="Hire-button" variant="outlined" color="secondary">
                     <p className="hire-button-text"> Hire Me </p> 
@@ -52,6 +55,7 @@ window.addEventListener('scroll', ()=>{
             </Button>
             </ButtonGroup>
             </div>
+
         </div>
     )
 }

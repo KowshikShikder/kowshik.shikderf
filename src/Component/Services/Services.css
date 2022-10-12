@@ -1,8 +1,7 @@
 .Services-parent-main{
-    height: 720px;
+    height: 740px;
     width: 100%;
     background-color: rgb(25, 25, 34);
-    /* background: white; */
     border-bottom: 1px solid white;
     border-top:0.1px solid white;
 }
@@ -102,7 +101,7 @@
 @media screen and (min-width:0px) and (max-width:615px){
 
     .Services-parent-main{
-        height: 1420px;
+        height: 1450px;
     }
 
 
@@ -145,7 +144,7 @@
     }
 
     .Services-parent-main{
-        height: 920px;
+        height: 960px;
     }
 
     .Services-parent{

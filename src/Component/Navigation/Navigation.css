@@ -142,6 +142,12 @@
     margin-left: 10px;
 }
 
+.MuiButton-label {
+    width: 100%;
+    display: grid;
+}
+
+
 .language div{
     display: inline-block;
     padding: 10px;
@@ -164,7 +170,7 @@
 
 
 .sideNavButton{
-    display: grid;
+    display: none;
     justify-content: flex-start;
     margin-left: 50px;
     margin-top: 20px;
@@ -218,13 +224,14 @@
 }
 
 .sideNavButton button:nth-child(6){
-    animation: SideButtonEffect 0.5s 0.11s  forwards linear;
+    animation: SideButtonEffect 0.5s 1.11s  forwards linear;
 }
-
 
 .sideNavButton button:nth-child(7){
-    animation: SideButtonEffect 0.5s 0.13s  forwards linear;
+    animation: SideButtonEffect 0.5s 1.25s  forwards linear;
 }
+
+
 
 
 

@@ -13,7 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-background-attachment: fixed;
+    background-attachment: fixed;
     height:600px;
     width: 100%;
     position: relative;
@@ -22,7 +22,7 @@ background-attachment: fixed;
 }
 
 
-.Cover::before{
+.Cover img::before{
     content: '';
     position: absolute;
     height: 100%;
@@ -204,7 +204,7 @@ background-attachment: fixed;
     height: 100%;
     width: 100%;
     left: 0px;
-    background-color: rgba(13, 36, 99, 0.418);
+    /* background-color: rgba(13, 36, 99, 0.418); */
     opacity: 0.6;
 }
 
@@ -219,6 +219,7 @@ background-attachment: fixed;
 @media screen and (min-width: 0px) and (max-width:450px){
     .Cover{
         height: 300px;
+    background-attachment: scroll;
     }
 }
 
@@ -226,6 +227,7 @@ background-attachment: fixed;
 @media screen and (min-width: 451px) and (max-width:850px){
     .Cover{
         height: 400px;
+    background-attachment: scroll;
     }
     }
     
@@ -301,7 +303,7 @@ background-attachment: fixed;
     
 
 .Cover-text{
-    top: 5%;
+    top: 15%;
     left: 6%;
 }
 
@@ -527,7 +529,7 @@ background-attachment: fixed;
 
 
 .HireMeButton Button:hover:after{
-    background: #8341FC;
+    background: #5453D8;
     content: '';
     position: absolute;
     z-index: -10;

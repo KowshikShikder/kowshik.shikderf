@@ -5,6 +5,7 @@ export default function ProjectsItem(props) {
 
 const {image, webSiteName} =props;
 
+    // document.querySelector('.projects').scroll
 
 
     return (
@@ -14,7 +15,7 @@ const {image, webSiteName} =props;
 
                 <div className="project-img">
 
-                    <img src={`${window.location.origin}/Images/${image}`} alt="" />
+                    <img src={`${window.location.origin}/kowshik.shikderf/Images/${image}`} alt="" />
 
 
                 </div>
